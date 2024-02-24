@@ -11,7 +11,7 @@ sudo apt-get update
 sudo apt-get install docker.io
 ```
 
-##Installation de Kubernetes et Minikube
+## Installation de Kubernetes et Minikube
 ### install kubernetes :
 - Téléchargez kubectl
 ```bash
@@ -59,7 +59,7 @@ sudo usermod -aG docker $USER
 newgrp docker
 ```
 
-##Déploiement de Nginx
+## Déploiement de Nginx
 - Copiez les fichiers de configuration fournis :
 ```bash
 nginx-inst-dep.yaml
